@@ -10,8 +10,10 @@
 		F517B7282D51C21A0049C163 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F517B7262D51C21A0049C163 /* CustomCollectionViewCell.m */; };
 		F517B7292D51C21A0049C163 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F517B7272D51C21A0049C163 /* CustomCollectionViewCell.xib */; };
 		F517B7302D5214810049C163 /* RippleEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = F517B72F2D5214810049C163 /* RippleEffectView.m */; };
-		F5A85A2C2D535204002AF96B /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A85A2A2D535204002AF96B /* LoginVC.m */; };
-		F5A85A2D2D535204002AF96B /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A85A2B2D535204002AF96B /* LoginVC.xib */; };
+		F5AE2A292D53AAF400811C59 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AE2A272D53AAF400811C59 /* LoginVC.m */; };
+		F5AE2A2A2D53AAF400811C59 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5AE2A282D53AAF400811C59 /* LoginVC.xib */; };
+		F5AE2A2F2D53ACC000811C59 /* DefaultActionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AE2A2E2D53ACC000811C59 /* DefaultActionBar.m */; };
+		F5AE2A312D53ADF000811C59 /* DefaultActionBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5AE2A302D53ADF000811C59 /* DefaultActionBar.xib */; };
 		F5B38BD02D50BF7400184964 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B38BCF2D50BF7400184964 /* AppDelegate.m */; };
 		F5B38BD32D50BF7400184964 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B38BD22D50BF7400184964 /* SceneDelegate.m */; };
 		F5B38BD62D50BF7400184964 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B38BD52D50BF7400184964 /* ViewController.m */; };
@@ -21,8 +23,6 @@
 		F5B38BEC2D50C13A00184964 /* OnbroadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B38BEA2D50C13A00184964 /* OnbroadVC.m */; };
 		F5B38BED2D50C13A00184964 /* OnbroadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B38BEB2D50C13A00184964 /* OnbroadVC.xib */; };
 		F5C275CA2D51AC3B009AB782 /* RoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C275C92D51AC3B009AB782 /* RoundedButton.m */; };
-		F5C40FF92D53313B003CA353 /* ActionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C40FF82D53313B003CA353 /* ActionBar.m */; };
-		F5C40FFB2D53314D003CA353 /* ActionBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C40FFA2D53314D003CA353 /* ActionBar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +31,12 @@
 		F517B7272D51C21A0049C163 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
 		F517B72E2D5214810049C163 /* RippleEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RippleEffectView.h; sourceTree = "<group>"; };
 		F517B72F2D5214810049C163 /* RippleEffectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RippleEffectView.m; sourceTree = "<group>"; };
-		F5A85A292D535204002AF96B /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
-		F5A85A2A2D535204002AF96B /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
-		F5A85A2B2D535204002AF96B /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		F5AE2A262D53AAF400811C59 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		F5AE2A272D53AAF400811C59 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		F5AE2A282D53AAF400811C59 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		F5AE2A2D2D53ACC000811C59 /* DefaultActionBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultActionBar.h; sourceTree = "<group>"; };
+		F5AE2A2E2D53ACC000811C59 /* DefaultActionBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultActionBar.m; sourceTree = "<group>"; };
+		F5AE2A302D53ADF000811C59 /* DefaultActionBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultActionBar.xib; sourceTree = "<group>"; };
 		F5B38BCB2D50BF7400184964 /* Watchify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watchify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B38BCE2D50BF7400184964 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5B38BCF2D50BF7400184964 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,9 +53,6 @@
 		F5B38BEB2D50C13A00184964 /* OnbroadVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnbroadVC.xib; sourceTree = "<group>"; };
 		F5C275C82D51AC3B009AB782 /* RoundedButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedButton.h; sourceTree = "<group>"; };
 		F5C275C92D51AC3B009AB782 /* RoundedButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundedButton.m; sourceTree = "<group>"; };
-		F5C40FF72D53313B003CA353 /* ActionBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionBar.h; sourceTree = "<group>"; };
-		F5C40FF82D53313B003CA353 /* ActionBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionBar.m; sourceTree = "<group>"; };
-		F5C40FFA2D53314D003CA353 /* ActionBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionBar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,9 +154,9 @@
 		F5C40FEB2D53251E003CA353 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				F5A85A292D535204002AF96B /* LoginVC.h */,
-				F5A85A2A2D535204002AF96B /* LoginVC.m */,
-				F5A85A2B2D535204002AF96B /* LoginVC.xib */,
+				F5AE2A262D53AAF400811C59 /* LoginVC.h */,
+				F5AE2A272D53AAF400811C59 /* LoginVC.m */,
+				F5AE2A282D53AAF400811C59 /* LoginVC.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -164,9 +164,9 @@
 		F5C40FF12D53292C003CA353 /* ActionBar */ = {
 			isa = PBXGroup;
 			children = (
-				F5C40FF72D53313B003CA353 /* ActionBar.h */,
-				F5C40FF82D53313B003CA353 /* ActionBar.m */,
-				F5C40FFA2D53314D003CA353 /* ActionBar.xib */,
+				F5AE2A2D2D53ACC000811C59 /* DefaultActionBar.h */,
+				F5AE2A2E2D53ACC000811C59 /* DefaultActionBar.m */,
+				F5AE2A302D53ADF000811C59 /* DefaultActionBar.xib */,
 			);
 			path = ActionBar;
 			sourceTree = "<group>";
@@ -228,10 +228,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5A85A2D2D535204002AF96B /* LoginVC.xib in Resources */,
+				F5AE2A2A2D53AAF400811C59 /* LoginVC.xib in Resources */,
 				F5B38BDE2D50BF7500184964 /* LaunchScreen.storyboard in Resources */,
 				F5B38BED2D50C13A00184964 /* OnbroadVC.xib in Resources */,
-				F5C40FFB2D53314D003CA353 /* ActionBar.xib in Resources */,
+				F5AE2A312D53ADF000811C59 /* DefaultActionBar.xib in Resources */,
 				F5B38BDB2D50BF7500184964 /* Assets.xcassets in Resources */,
 				F517B7292D51C21A0049C163 /* CustomCollectionViewCell.xib in Resources */,
 			);
@@ -246,12 +246,12 @@
 			files = (
 				F5B38BD62D50BF7400184964 /* ViewController.m in Sources */,
 				F517B7302D5214810049C163 /* RippleEffectView.m in Sources */,
-				F5A85A2C2D535204002AF96B /* LoginVC.m in Sources */,
+				F5AE2A292D53AAF400811C59 /* LoginVC.m in Sources */,
+				F5AE2A2F2D53ACC000811C59 /* DefaultActionBar.m in Sources */,
 				F5B38BEC2D50C13A00184964 /* OnbroadVC.m in Sources */,
 				F5B38BD02D50BF7400184964 /* AppDelegate.m in Sources */,
 				F5B38BE12D50BF7500184964 /* main.m in Sources */,
 				F517B7282D51C21A0049C163 /* CustomCollectionViewCell.m in Sources */,
-				F5C40FF92D53313B003CA353 /* ActionBar.m in Sources */,
 				F5B38BD32D50BF7400184964 /* SceneDelegate.m in Sources */,
 				F5C275CA2D51AC3B009AB782 /* RoundedButton.m in Sources */,
 			);
