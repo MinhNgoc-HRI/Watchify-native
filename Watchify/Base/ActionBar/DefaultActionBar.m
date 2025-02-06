@@ -52,5 +52,10 @@
     self.titleOL.text = _title;
 }
 
+- (IBAction)backBtnAction:(id)sender {
+    if ([self.delegate respondsToSelector:@selector(defaultActionBarBackHandle:)]) {
+           [self.delegate defaultActionBarBackHandle:self];
+       }
+}
 
 @end

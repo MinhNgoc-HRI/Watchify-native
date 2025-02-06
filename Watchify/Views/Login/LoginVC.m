@@ -6,8 +6,9 @@
 //
 
 #import "LoginVC.h"
-
-@interface LoginVC ()
+#import "DefaultActionBar.h"
+@interface LoginVC ()<DefaultActionBarDelegate>
+@property (weak, nonatomic) IBOutlet DefaultActionBar *actionBar;
 
 @end
 
@@ -16,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+ 
+    self.actionBar.delegate = self;
 }
 
 /*
@@ -27,5 +30,9 @@
     // Pass the selected object to the new view controller.
 }
 */
+#pragma mark - DefaultActionBarDelegate
+- (void)defaultActionBarBackHandle:(DefaultActionBar *)actionBar{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 @end

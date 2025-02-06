@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -35,15 +35,31 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7oF-vC-OWB">
+                            <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="xR7-VC-8mE"/>
+                            </constraints>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain"/>
+                            <connections>
+                                <action selector="backBtnAction:" destination="-1" eventType="touchUpInside" id="JYV-zK-VtM"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
+                        <constraint firstItem="7oF-vC-OWB" firstAttribute="leading" secondItem="J8j-4h-cq0" secondAttribute="leading" id="0PM-8K-ncS"/>
                         <constraint firstAttribute="height" constant="44" id="0Pw-lL-t1t"/>
                         <constraint firstItem="PUo-cv-59B" firstAttribute="centerX" secondItem="J8j-4h-cq0" secondAttribute="centerX" id="4la-Du-lnc"/>
                         <constraint firstItem="PUo-cv-59B" firstAttribute="leading" secondItem="i7P-bg-6in" secondAttribute="trailing" constant="16" id="Fjv-f2-mSH"/>
                         <constraint firstItem="i7P-bg-6in" firstAttribute="leading" secondItem="J8j-4h-cq0" secondAttribute="leading" constant="16" id="Hsn-Pq-XRy"/>
+                        <constraint firstAttribute="bottom" secondItem="7oF-vC-OWB" secondAttribute="bottom" id="ZMh-YI-7bw"/>
                         <constraint firstItem="PUo-cv-59B" firstAttribute="centerY" secondItem="J8j-4h-cq0" secondAttribute="centerY" id="cjY-7l-Ipz"/>
                         <constraint firstItem="i7P-bg-6in" firstAttribute="centerY" secondItem="J8j-4h-cq0" secondAttribute="centerY" id="iAK-mr-3nJ"/>
+                        <constraint firstItem="7oF-vC-OWB" firstAttribute="top" secondItem="J8j-4h-cq0" secondAttribute="top" id="k8U-5A-hkW"/>
                     </constraints>
                 </view>
             </subviews>

@@ -10,6 +10,8 @@
 		F517B7282D51C21A0049C163 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F517B7262D51C21A0049C163 /* CustomCollectionViewCell.m */; };
 		F517B7292D51C21A0049C163 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F517B7272D51C21A0049C163 /* CustomCollectionViewCell.xib */; };
 		F517B7302D5214810049C163 /* RippleEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = F517B72F2D5214810049C163 /* RippleEffectView.m */; };
+		F5187A022D54AB3100310193 /* DefaultInput.m in Sources */ = {isa = PBXBuildFile; fileRef = F5187A012D54AB3100310193 /* DefaultInput.m */; };
+		F5187A042D54AB4800310193 /* DefaultInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5187A032D54AB4800310193 /* DefaultInput.xib */; };
 		F5AE2A292D53AAF400811C59 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AE2A272D53AAF400811C59 /* LoginVC.m */; };
 		F5AE2A2A2D53AAF400811C59 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5AE2A282D53AAF400811C59 /* LoginVC.xib */; };
 		F5AE2A2F2D53ACC000811C59 /* DefaultActionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AE2A2E2D53ACC000811C59 /* DefaultActionBar.m */; };
@@ -31,6 +33,9 @@
 		F517B7272D51C21A0049C163 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
 		F517B72E2D5214810049C163 /* RippleEffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RippleEffectView.h; sourceTree = "<group>"; };
 		F517B72F2D5214810049C163 /* RippleEffectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RippleEffectView.m; sourceTree = "<group>"; };
+		F5187A002D54AB3100310193 /* DefaultInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultInput.h; sourceTree = "<group>"; };
+		F5187A012D54AB3100310193 /* DefaultInput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultInput.m; sourceTree = "<group>"; };
+		F5187A032D54AB4800310193 /* DefaultInput.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultInput.xib; sourceTree = "<group>"; };
 		F5AE2A262D53AAF400811C59 /* LoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
 		F5AE2A272D53AAF400811C59 /* LoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 		F5AE2A282D53AAF400811C59 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
@@ -73,6 +78,16 @@
 				F517B72F2D5214810049C163 /* RippleEffectView.m */,
 			);
 			path = RippleButton;
+			sourceTree = "<group>";
+		};
+		F51879FF2D54AAC700310193 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				F5187A002D54AB3100310193 /* DefaultInput.h */,
+				F5187A012D54AB3100310193 /* DefaultInput.m */,
+				F5187A032D54AB4800310193 /* DefaultInput.xib */,
+			);
+			path = Input;
 			sourceTree = "<group>";
 		};
 		F5B38BC22D50BF7400184964 = {
@@ -132,6 +147,7 @@
 		F5C275C62D51AC02009AB782 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				F51879FF2D54AAC700310193 /* Input */,
 				F5C40FF12D53292C003CA353 /* ActionBar */,
 				F517B72A2D5213D80049C163 /* RippleButton */,
 				F5C275C72D51AC0B009AB782 /* UICustom */,
@@ -231,6 +247,7 @@
 				F5AE2A2A2D53AAF400811C59 /* LoginVC.xib in Resources */,
 				F5B38BDE2D50BF7500184964 /* LaunchScreen.storyboard in Resources */,
 				F5B38BED2D50C13A00184964 /* OnbroadVC.xib in Resources */,
+				F5187A042D54AB4800310193 /* DefaultInput.xib in Resources */,
 				F5AE2A312D53ADF000811C59 /* DefaultActionBar.xib in Resources */,
 				F5B38BDB2D50BF7500184964 /* Assets.xcassets in Resources */,
 				F517B7292D51C21A0049C163 /* CustomCollectionViewCell.xib in Resources */,
@@ -251,6 +268,7 @@
 				F5B38BEC2D50C13A00184964 /* OnbroadVC.m in Sources */,
 				F5B38BD02D50BF7400184964 /* AppDelegate.m in Sources */,
 				F5B38BE12D50BF7500184964 /* main.m in Sources */,
+				F5187A022D54AB3100310193 /* DefaultInput.m in Sources */,
 				F517B7282D51C21A0049C163 /* CustomCollectionViewCell.m in Sources */,
 				F5B38BD32D50BF7400184964 /* SceneDelegate.m in Sources */,
 				F5C275CA2D51AC3B009AB782 /* RoundedButton.m in Sources */,
